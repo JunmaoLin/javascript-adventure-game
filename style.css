@@ -28,8 +28,8 @@ button {
 }
 
 body {
-background-image: url("forest.png");
-background-size: cover;
-background-repeat: no-repeat;
-font-family: monospace;
+  background-image: url("forest.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: monospace;
 }
