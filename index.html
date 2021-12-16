@@ -10,12 +10,12 @@
 <body>
   <!-- your content here... -->
   <div class="container">
-    <img class="profile" src="character.png">
+    <img class="profile" src="images/character.png">
     <h1>JavaScript Adventure Game</h1>
     <p class="adventure-description">This is the adventure of Juan, who got lost in the forest</p>
     <div id="option-buttons" class="buttons-grid">
-      <button class="button"></button>
-      <button class="button"></button>
+      <button class="button" id="first_btn" onclick="onNextOption(event)"></button>
+      <button class="button" id="second_btn" onclick="onPlayAgain(event)"></button>
     </div>
   </div>
   <script src="js/script.js"></script>
